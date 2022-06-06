@@ -6,14 +6,17 @@
  */
 int main(void)
 {
-	int num;
-	for (num = 0; num <=9; num++)
+	int n;
+
+	for (n = 48; n < 58; n++)
 	{
-		puchar((num %10) +'0')
-		if (num == 9)
-			continue;
-		putchar(',');
-		putchar('');
+		putchar(n);
+		if (n != 57)
+		{
+			putchar(',');
+			putchar('');
+		}
+	
 	}
 putchar('\n');
 return (0);
